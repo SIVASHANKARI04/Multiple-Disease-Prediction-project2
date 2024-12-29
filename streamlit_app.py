@@ -4,17 +4,17 @@ import numpy as np
 import xgboost
 
 # Load models and scalers
-with open('E:\DSDemo\env\parkinsons_model1.pkl', 'rb') as f:
+with open('parkinsons_model1.pkl', 'rb') as f:
     parkinsons_data = pickle.load(f)
     parkinsons_scaler = parkinsons_data['scaler']
     parkinsons_model = parkinsons_data['model1']
 
-with open('E:\DSDemo\env\india_liver_model1.pkl', 'rb') as f:
+with open('india_liver_model1.pkl', 'rb') as f:
     liver_data = pickle.load(f)
     liver_encoder = liver_data['scaler']
     liver_model = liver_data['model1']
 
-with open('E:\DSDemo\env\kidney_model6.pkl', 'rb') as f:
+with open('kidney_model6.pkl', 'rb') as f:
     kidney_data = pickle.load(f)
     kidney_encoder = kidney_data['scaler']
     kidney_model = kidney_data['model6']
