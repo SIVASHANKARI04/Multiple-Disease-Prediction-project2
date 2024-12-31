@@ -41,7 +41,7 @@ Objective: To identify individuals at risk for chronic kidney disease.
 **Algorithm:** XGBoost Classifier
 **Preprocessing:** Feature scaling using a StandardScaler.
 **Training:** Model trained on balanced data to optimize prediction accuracy.
-**Evaluation:**Achieved high accuracy and F1-score, making it suitable for reliable predictions.
+**Evaluation:** Achieved high accuracy and F1-score, making it suitable for reliable predictions.
 
 **Liver Disease Model**
 **Algorithm:** Logistic Regression (or another appropriate model depending on the implementation).
@@ -57,5 +57,7 @@ Objective: To identify individuals at risk for chronic kidney disease.
 **Why These Models?**
 
 **XGBoost:** Ideal for structured datasets with its ability to handle missing data and boost prediction accuracy.
-**Logistic Regression:**Effective for binary classification tasks with interpretable coefficients.
-**Random Forest:**Robust against overfitting and excellent for handling non-linear relationships.
+
+**Logistic Regression:** Effective for binary classification tasks with interpretable coefficients.
+
+**Random Forest:** Robust against overfitting and excellent for handling non-linear relationships.
