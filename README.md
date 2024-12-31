@@ -1,10 +1,13 @@
+
 # Multiple-Disease-Prediction-project2
+
+Here this link check it out:http://43.204.100.227:8502/
 
 **About the Datasets**
 
 **1. Parkinson’s Disease Dataset**
 
- ** Source: **The dataset contains vocal measurements from individuals, including both healthy participants and those with Parkinson’s disease.
+ Source:The dataset contains vocal measurements from individuals, including both healthy participants and those with Parkinson’s disease.
  
  **Features:**
   Vocal fundamental frequencies (MDVP:Fo, MDVP:Fhi, MDVP:Flo)
@@ -13,7 +16,7 @@
   Objective: To classify whether an individual is positive or negative for Parkinson’s disease.
   
  **2. Liver Disease Dataset**
-**Source: **This dataset includes clinical and laboratory data of individuals, focusing on liver health.
+Source: This dataset includes clinical and laboratory data of individuals, focusing on liver health.
 **Features:**
 
 Total Bilirubin, Direct Bilirubin
@@ -23,7 +26,7 @@ Objective: To predict the presence or absence of liver disease.
 
 **3. Kidney Disease Dataset**
 
-**Source: **A medical dataset containing data on kidney function indicators.
+ A medical dataset containing data on kidney function indicators.
 **Features:**
 
 Age, blood pressure (BP), specific gravity (SG), albumin (AL), sugar levels
