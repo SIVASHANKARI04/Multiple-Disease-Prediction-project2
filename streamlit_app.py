@@ -19,6 +19,39 @@ with open('kidney_model6.pkl', 'rb') as f:
     kidney_encoder = kidney_data['scaler']
     kidney_model = kidney_data['model6']
 
+# Set up background image
+def set_bg_image(image_path):
+    with open(image_path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+    page_bg_img = f"""
+    <style>
+    .stApp {{
+        background-image: url(data:image/png;base64,{encoded_string});
+        background-size: cover;
+        background-repeat: no-repeat;
+    }}
+    </style>
+    """
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+
+sidebar_style = """
+    <style>
+    [data-testid="stSidebar"] {
+        background-color: #79BFF6; /* Pure Sky Blue Color */
+        color: white;
+    }
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] label {
+        color: white;
+        font-weight: bold;
+    }
+    [data-testid="stSidebar"] .css-1e4r1h6 {
+        background-color: transparent;
+    }
+    </style>
+"""
+st.markdown(sidebar_style, unsafe_allow_html=True)
+
+
 # Streamlit dashboard
 st.header("MULTIPLE DISEASE PREDICTION")
 st.subheader("Disease Prediction Dashboard")
