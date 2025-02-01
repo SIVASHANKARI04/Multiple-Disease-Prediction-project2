@@ -49,8 +49,10 @@ sidebar_style = """
     }
     </style>
 """
-st.markdown(sidebar_style, unsafe_allow_html=True)
+st.markdown(sidebar_style, unsafe_allow_html=True
 
+# Set your background image file path
+set_bg_image("E:\DSDemo\env\medicine-blue-background-flat-lay_23-2149341573.avif")
 
 # Streamlit dashboard
 st.header("MULTIPLE DISEASE PREDICTION")
