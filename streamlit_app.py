@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import xgboost
+import base64
 
 # Load models and scalers
 with open('parkinsons_model1.pkl', 'rb') as f:
@@ -14,7 +14,7 @@ with open('india_liver_model1.pkl', 'rb') as f:
     liver_encoder = liver_data['scaler']
     liver_model = liver_data['model1']
 
-with open('kidney_model6.pkl', 'rb') as f:
+with open('kidney_model6 (2).pkl', 'rb') as f:
     kidney_data = pickle.load(f)
     kidney_encoder = kidney_data['scaler']
     kidney_model = kidney_data['model6']
